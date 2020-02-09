@@ -1,17 +1,7 @@
 # Was geht ab bitches
 
 import math
-from copy import copy
 
-fobj = open("dc.in").read()
-data = []
-data2 = []
-data3 = []
-
-data = fobj.split("\n")
-
-for x in data:
-    data2.append(x.split(" "))
 
 for x in data2:
     for y in x:
